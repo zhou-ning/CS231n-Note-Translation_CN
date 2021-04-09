@@ -10,8 +10,6 @@
 
 我们希望你们中的许多人都会对Python和numpy有一定的经验；对于其余的人，本节将作为速成课程，介绍Python编程语言及其在科学计算中的用法。我们还将介绍笔记本，这是修补Python代码的一种非常方便的方法。你们中的某些人可能已经掌握了其他语言的知识，在这种情况下，我们还建议您参考：[NumPy for Matlab users](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html), [Python for R users](http://www.data-analysis-in-python.org/python_for_r.html), and/or [Python for SAS users](https://nbviewer.jupyter.org/github/RandyBetancourt/PythonForSASUsers/tree/master/).
 
-目录：
-
 ## Jupyter和Colab笔记本
 
 在深入研究Python之前，我们想简要地介绍一下笔记本。 Jupyter笔记本可让您在Web浏览器中本地编写和执行Python代码。 Jupyter笔记本非常容易修改代码，并一点一点地执行它。因此，它们被广泛用于科学计算。另一方面，Colab是Google的Jupyter笔记本电脑风格，特别适合于机器学习和数据分析，并且完全在云中运行。 Colab基本上是使用类固醇的Jupyter笔记本：它是免费的，无需任何设置，预装了许多软件包，易于与世界共享，并且可以免费使用GPU和TPU等硬件加速器（有一些警告）。
@@ -679,7 +677,7 @@ print(vv)                 # Prints "[[1 0 1]
                           #          [1 0 1]
                           #          [1 0 1]]"
 y = x + vv  # Add x and vv elementwise
-print(y)  # Prints "[[ 2  2  4
+print(y)  # Prints "[[ 2  2  4]
           #          [ 5  5  7]
           #          [ 8  8 10]
           #          [11 11 13]]"
